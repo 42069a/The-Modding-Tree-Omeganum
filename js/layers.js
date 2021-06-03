@@ -25,5 +25,5 @@ addLayer("p", {
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true},
-    update(){window.location.href = "https://raw.githack.com/microwaved-pizza/The-Modding-Tree/chem2/index.html"}
+    update(){window.location.href = "https://raw.githack.com/42069a/The-Modding-Tree/master/index.html"}
 })
