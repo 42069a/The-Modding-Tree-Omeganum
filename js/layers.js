@@ -24,5 +24,6 @@ addLayer("p", {
     hotkeys: [
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+    update(){window.location.href = "https://raw.githack.com/microwaved-pizza/The-Modding-Tree/chem2/index.html"}
 })
